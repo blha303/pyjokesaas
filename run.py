@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 import pyjokes
 
 app = Flask(__name__)
-app.debug = True
 
 # http://flask.pocoo.org/snippets/45/
 def request_wants_json():
